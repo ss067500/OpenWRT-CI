@@ -33,7 +33,7 @@ UPDATE_PACKAGE() {
         # git clone --depth=1 --single-branch --branch $PKG_BRANCH "https://github.com/$PKG_REPO.git"
 	# Add a feed source
 echo 'src-git kenzok8 https://github.com/kenzok8/small-package' >> feeds.conf.default
-echo 'src-git helloworld https://github.com/fw876/helloworld.git' >> feeds.conf.default
+# echo 'src-git helloworld https://github.com/fw876/helloworld.git' >> feeds.conf.default
 
 
 	# 处理克隆的仓库
